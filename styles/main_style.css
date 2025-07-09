@@ -1,0 +1,56 @@
+:root
+{
+    --title-background-color : #BC6C25;
+    --title-color : #FEFAE0;
+    --background-color : #283618;
+    --main-color : #DDA15E;
+    --link-color : #606C38;
+    --title-gap : 5%;
+}
+
+header
+{
+    background-color: var(--title-background-color);
+    
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: var(--title-gap);
+    
+    margin-left: 12.5%;
+    width: 75%;
+    
+    h1
+    {
+        display: inline;
+        width: calc((100% - var(--title-gap)*3)/4);
+        text-align: center;
+        /*text size dependant on header size*/
+    }
+    a
+    {
+        color: var(--title-color);
+    }
+}
+
+body
+{
+    background-color: var(--background-color);
+    height: 100%;
+}
+
+h2
+{
+    color: var(--title-color);
+}
+
+
+a
+{
+    color: var(--link-color);
+}
+
+p, td
+{
+    color: var(--main-color);
+}
