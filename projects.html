@@ -2,43 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/main_style.css">
+    <script src="https://kit.fontawesome.com/63741acf89.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/project_style.css">
     <title>Boblet Corentin - Projects</title>
 </head>
 
 
 <header>
-    <a href="index.html">< back </a>
+    <a href="index.html">
+        <h1>About Me</h1>
+    </a>
+    <a class="active" href="projects.html">
+        <h1>Projects</h1>
+    </a>
+    <a href="links.html">
+        <h1>Links</h1>
+    </a>
 </header>
 
 
-<body>
-<p>
-    Here are my most important and interesting projects :
-</p>
 
-<table>
-    <tr>
-        <td><a href="https://cloudcastleaudio.itch.io/den">Den</a></td>
-        <td>Master 1 Project</td>
-        <td>Unity, C#, AI programming</td>
-        <td>Den is an interactive diorama centered around interacting with an invented creature, through mouse movement</td>
-        <td>Pics I guess</td>
-    </tr>
-    <tr>
-        <td><a href="https://kerorr.itch.io/no-time-for-creeps">No Time for Creeps</a></td>
-        <td>1-Week Master project</td>
-        <td>Unity, C#, Git</td>
-        <td>A 3D cooperative shooter in which you play as Jet and Rachel, two young aliens who want to escape a nightclub because they’ve had enough.</td>
-        <td>Pics I guess</td>
-    </tr>
-    <tr>
-        <td><a href="https://leodeschaux.itch.io/party-intruder">Party Intruder</a></td>
-        <td>Bachelor end project</td>
-        <td>Unreal, C++, Perforce</td>
-        <td>Take on the role of a slasher villain who has targeted an isolated group of people and will seek to kill each of them as creatively as possible without alerting the police.</td>
-        <td>Pics I guess</td>
-    </tr>
-</table>
+<body>
+<div class="main-text">
+    <p>
+        Here are my most important and interesting projects :
+    </p>
+    
+    <a class="project" href="https://cloudcastleaudio.itch.io/den">
+        <h3 class="title">
+            Den
+        </h3>
+        <p class="context">
+            Master 1 Project
+        </p>
+        <p class="description">
+            Den is an interactive diorama centered around interacting with an invented creature, through mouse movement
+        </p>
+        <p class="competences">
+            Unity, C#, AI programming
+        </p>
+        <img class="thumbmail" src="ressources/den_thumbmail.png" alt="DEN Thumbmail">
+    </a>
+
+    <hr>
+    
+    <a class="project" href="https://kerorr.itch.io/no-time-for-creeps">
+        <h3 class="title">
+            No Time for Creeps
+        </h3>
+        <p class="context">
+            1-Week Master project
+        </p>
+        <p class="description">
+            A 3D cooperative shooter in which you play as Jet and Rachel, two young aliens who want to escape a nightclub because they’ve had enough.
+        </p>
+        <p class="competences">
+            Unity, C#, Git
+        </p>
+        <img class="thumbmail" src="ressources/ntfc_thumbmail.png" alt="No Time for Creeps Thumbmail">
+    </a>
+
+    <hr>
+    
+    <a class="project" href="https://leodeschaux.itch.io/party-intruder">
+        <h3 class="title">
+            Party Intruder
+        </h3>
+        <p class="context">
+            Bachelor end project
+        </p>
+        <p class="description">
+            Take on the role of a slasher villain who has targeted an isolated group of people and will seek to kill each of them as creatively as possible without alerting the police.
+        </p>
+        <p class="competences">
+            Unreal, C++, Perforce
+        </p>
+        <img class="thumbmail" src="ressources/pi_thumbmail.png" alt="Party Intruder Thumbmail">
+    </a>
+</div>
 </body>
 </html>

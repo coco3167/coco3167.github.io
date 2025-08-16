@@ -17,19 +17,34 @@ header
     justify-content: center;
     gap: var(--title-gap);
     
-    margin-left: 12.5%;
-    width: 75%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
     
-    h1
+    margin-bottom: 2%;
+
+    border-radius: 0 0 10px 10px;
+    
+    a
     {
         display: inline;
         width: calc((100% - var(--title-gap)*3)/4);
         text-align: center;
-        /*text size dependant on header size*/
-    }
-    a
-    {
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: var(--background-color);
         color: var(--title-color);
+
+        border-radius: 5px;
+    }
+    a:hover
+    {
+        color: var(--link-color);
+    }
+
+    .active
+    {
+        border: 3px solid var(--title-color) ;
     }
 }
 
@@ -37,20 +52,35 @@ body
 {
     background-color: var(--background-color);
     height: 100%;
+    margin: 0 0 5% 0;
+
+    text-align: left;
+    vertical-align: center;
+}
+
+.main-text
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    color: var(--main-color);
+}
+
+.field
+{
+    border: 1px dotted var(--main-color);
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 1%;
 }
 
 h2
 {
     color: var(--title-color);
+    text-align: center;
+    margin: 0;
 }
-
 
 a
 {
     color: var(--link-color);
-}
-
-p, td
-{
-    color: var(--main-color);
 }
