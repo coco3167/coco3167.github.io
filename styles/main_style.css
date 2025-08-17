@@ -54,6 +54,8 @@ body
     height: 100%;
     margin: 0 0 5% 0;
 
+    font-family: Verdana, sans-serif;
+
     text-align: left;
     vertical-align: center;
 }
@@ -69,6 +71,10 @@ body
 {
     border: 1px dotted var(--main-color);
     border-radius: 10px;
+    
+    background-color: var(--title-background-color);
+    color: var(--background-color);
+    
     margin-bottom: 1%;
     padding: 1%;
 }
@@ -78,9 +84,16 @@ h2
     color: var(--title-color);
     text-align: center;
     margin: 0;
+    margin-bottom: 2%;
 }
 
 a
 {
     color: var(--link-color);
+}
+
+hr
+{
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
