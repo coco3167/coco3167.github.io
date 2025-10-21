@@ -8,6 +8,8 @@
     --main-color : #111111;
     
     --project-highlight-background-color : #cccccc;
+    --project-highlight-hover-background-color : #bbbbbb;
+    
     --main-padding : 0 10% 0 10%;
 }
 
@@ -117,6 +119,8 @@ a
 {
     background-color: var(--project-highlight-background-color);
     
+    transition: all .5s;
+    
     display: flex;
     flex-direction: column;
     
@@ -147,6 +151,12 @@ a
         margin-left: 2%;
         margin-right: 2%;
     }
+}
+
+.project-hightlight:hover
+{
+    background-color: var(--project-highlight-hover-background-color);
+    transform: scale(110%);
 }
 
 .personnal-description
