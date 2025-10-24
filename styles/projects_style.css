@@ -1,0 +1,88 @@
+@import "main_style.css";
+
+.project-header
+{
+    padding: var(--main-padding);
+    text-align: center;
+
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-clip: content-box;
+
+    a
+    {
+        text-decoration: none;
+        color: var(--main-color)
+    }
+}
+
+.asteroid
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("../ressources/Asteroids/asteroids_horizontal.png");
+    background-size: auto 100%;
+}
+.den
+{
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url("../ressources/Den/den_thumbmail.png");
+    background-position-y: 5%;
+}
+.gvz
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("../ressources/GenVsZomb/GvZ_banner.png");
+}
+.hc
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("../ressources/HorseCandy/hc_thumbmail.png");
+    background-size: auto 100%;
+}
+.hourglass
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("../ressources/Hourglass/hourglass_horizontal.png");
+    background-position-y: 98%;
+}
+.lt
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("../ressources/LibertyTrial/horizontal.png");
+    background-size: auto 100%;
+}
+.mA
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("../ressources/MinitASCII/minit_ascii_thumbmail.png");
+}
+.ntfc
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("../ressources/NoTimeForCreeps/ntfc_thumbmail.png");
+}
+.pi
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("../ressources/PartyIntruder/pi_horizontal.png");
+    background-size: auto 100%;
+}
+
+.project-assets
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+    gap: 5%;
+
+    img
+    {
+        object-fit: scale-down;
+        object-position: center;
+
+        min-width: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,29 @@
+@import "main_style.css";
+
+.personnal-description
+{
+    display: flex;
+    flex-direction: row;
+    height: 1%;
+    align-items: center;
+
+    gap: 1%;
+
+    img
+    {
+        object-fit: cover;
+
+        width: 10%;
+        flex-shrink: 0;
+
+        border-radius: 50%;
+    }
+
+    p
+    {
+        flex-shrink: 1;
+        flex-grow: 8;
+        height: min-content;
+        flex-wrap: wrap;
+    }
+}
