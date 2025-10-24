@@ -81,8 +81,19 @@
     {
         object-fit: scale-down;
         object-position: center;
+        
+        transform-origin: bottom;
+        z-index: auto;
+        
+        transition: transform 1s;
 
         min-width: 0;
         width: 100%;
+    }
+    
+    img:hover
+    {
+        transform: scale(200%);
+        z-index: 10;
     }
 }
