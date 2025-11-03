@@ -9,10 +9,16 @@
     background-position-x: center;
     background-clip: content-box;
 
+    color: white;
+    
     a
     {
         text-decoration: none;
-        color: var(--main-color)
+    }
+
+    i
+    {
+        color: white;
     }
 }
 
@@ -33,17 +39,17 @@
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
     url("../ressources/Den/den_thumbmail.png");
     background-position-y: 5%;
+
+    color: var(--main-color);
+    i
+    {
+        color: var(--main-color);
+    }
 }
 .gvz
 {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
     url("../ressources/GenVsZomb/GvZ_banner.png");
-
-    color: white;
-    i
-    {
-        color: white;
-    }
 }
 .hc
 {
