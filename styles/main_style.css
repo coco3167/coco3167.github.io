@@ -1,14 +1,14 @@
 :root
 {
-    --title-background-color : #000000;
-    --title-background-active-color : #444444;
+    --title-background-color : #2e2005;
+    --title-background-active-color : #413960;
     --title-color : #ffffff;
     
-    --background-color : #dddddd;
+    --background-color : #ede3de;
     --main-color : #111111;
     
-    --project-highlight-background-color : #cccccc;
-    --project-highlight-hover-background-color : #bbbbbb;
+    --project-highlight-background-color : #e8dbc9;
+    --project-highlight-hover-background-color : #dfcf9f;
     
     --main-padding : 0 10% 0 10%;
 }
@@ -26,8 +26,12 @@ body
     min-height: 100%;
     height: fit-content;
     margin: 0;
-    
-    font-family: Verdana, sans-serif;
+
+    font-family: "Sono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+            "MONO" 1;
     font-size: 1.2rem;
     
     display: flex;
