@@ -104,6 +104,12 @@ a
     {
         color: var(--main-color);
     }
+    
+    hr
+    {
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
 }
 
 .hilights
@@ -143,6 +149,8 @@ a
     
     hr
     {
+        margin-top: auto;
+        margin-bottom: auto;
         margin-left: 5%;
         margin-right: 5%;
     }

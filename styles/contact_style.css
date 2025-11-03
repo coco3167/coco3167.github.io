@@ -27,3 +27,9 @@
         flex-wrap: wrap;
     }
 }
+
+.main-text hr
+{
+    margin-bottom: auto;
+    margin-top: auto;
+}
