@@ -87,6 +87,12 @@
     url("../ressources/PartyIntruder/pi_horizontal.png");
     background-size: auto 100%;
 }
+.yurei
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)),
+    url("../ressources/Yurei/title.png");
+    background-size: auto 100%;
+}
 
 .project-assets
 {
